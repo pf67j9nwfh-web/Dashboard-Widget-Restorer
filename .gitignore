@@ -1,0 +1,8 @@
+build/
+dist/
+*.o
+*.pyc
+.DS_Store
+third_party/mbedtls/build/
+third_party/mbedtls/src/mbedtls/build/
+*.key

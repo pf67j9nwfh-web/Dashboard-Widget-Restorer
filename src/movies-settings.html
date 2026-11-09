@@ -1,0 +1,7 @@
+<div style="position:absolute;left:30px;top:65px;width:195px;color:white;font:10px Helvetica;">
+<label for="tw-cinema-key">Optional API Cinema key</label>
+<input id="tw-cinema-key" type="password" autocomplete="off" oninput="document.getElementById('locationTextField').disabled=false;" style="display:block;width:185px;margin-top:4px;" />
+<div id="tw-cinema-status" style="margin-top:5px;">Catalog needs no key.</div>
+<a href="#" onclick="widget.openURL('https://api-cinema.com/en/docs');return false;" style="color:white;">Get free showtimes key</a>
+<a href="#" id="tw-cinema-clear" onclick="twCinemaClear();return false;" style="color:white;display:none;margin-left:8px;">Remove</a>
+</div>
